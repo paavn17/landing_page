@@ -1,0 +1,20 @@
+.slider-img {
+  height: 450px;        /* Adjust height as needed */
+  object-fit: cover;    /* Ensure image fills space nicely */
+}
+.slider-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .slider-img {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider-img {
+    height: 550px;
+  }
+}
